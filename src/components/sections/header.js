@@ -2,6 +2,7 @@ import React from "react"
 import styled from "styled-components"
 import { graphql, useStaticQuery, Link } from "gatsby"
 import Img from "gatsby-image"
+import {button} from "react"
 
 import { Container } from "../global"
 
@@ -38,8 +39,6 @@ const Header = () => {
               get early access.
             </h2>
             <form name="contact" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
-  <input type="hidden" name="bot-field" />
-  <input type="hidden" name="form-name" value="contact" />
             <HeaderForm onSubmit={handleSubmit}>
               <HeaderInput name="email" placeholder="Your email" type="text"/>
               <HeaderButton>Early access</HeaderButton>
