@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter SaaS Marketing`,
+    title: `Credit Genie`,
     description: `A simple one page marketing starter for saas companies.`,
-    author: `Keegan Burkett`,
+    author: `Enzo Coglitore`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
