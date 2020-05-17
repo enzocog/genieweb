@@ -27,14 +27,14 @@ const Header = () => {
       <Container>
         <Flex>
           <HeaderTextGroup>
-            <Subtitle>Personal Finance</Subtitle>
+            <Subtitle>Credit Genie</Subtitle>
             <h1>
-              All your money,
+              Digital Finance
               <br />
-              one account
+              Made Simple
             </h1>
             <h2>
-              We're building next generation personal finance tools. Sign up to
+              We're rethinking the way personal finances work. Sign up to
               get early access.
             </h2>
             <HeaderForm onSubmit={handleSubmit}>
@@ -68,7 +68,7 @@ const HeaderWrapper = styled.header`
 `
 const Subtitle = styled.h5`
   font-size: 16px;
-  color: ${props => props.theme.color.accent};
+  color: #8361FF;
   letter-spacing: 0px;
   margin-bottom: 16px;
 `
@@ -126,11 +126,11 @@ const FormSubtitle = styled.span`
 `
 
 const FormSubtitleLink = styled(Link)`
-  color: ${props => props.theme.color.secondary};
+  color: #8361FF;
   padding-bottom: 1px;
   margin-left: 8px;
   text-decoration: none;
-  border-bottom: 1px solid ${props => props.theme.color.secondary};
+  border-bottom: 1px solid #8361FF;
 `
 
 const HeaderInput = styled.input`
@@ -143,7 +143,7 @@ const HeaderInput = styled.input`
   height: 60px;
   border-width: 1px;
   border-style: solid;
-  border-color: ${props => props.theme.color.secondary};
+  border-color: #828282;
   border-image: initial;
   border-radius: 4px;
   padding: 8px 16px;
@@ -171,7 +171,7 @@ const HeaderButton = styled.button`
   text-transform: uppercase;
   cursor: pointer;
   white-space: nowrap;
-  background: ${props => props.theme.color.secondary};
+  background: #8361FF;
   border-radius: 4px;
   padding: 0px 40px;
   border-width: 0px;

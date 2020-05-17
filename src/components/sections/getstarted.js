@@ -44,7 +44,7 @@ const TryItButton = styled.button`
   text-transform: uppercase;
   cursor: pointer;
   white-space: nowrap;
-  background: ${props => props.theme.color.secondary};
+  background: #8361FF;
   border-radius: 4px;
   padding: 0px 40px;
   border-width: 0px;
