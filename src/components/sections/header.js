@@ -41,14 +41,15 @@ const Header = () => {
   <input type="hidden" name="bot-field" />
   <input type="hidden" name="form-name" value="contact" />
             <HeaderForm onSubmit={handleSubmit}>
-              <HeaderInput placeholder="Your email" />
+              <HeaderInput name="email" placeholder="Your email" type="text"/>
               <HeaderButton>Early access</HeaderButton>
             </HeaderForm>
+            </form>
             <FormSubtitle>
               Already have a beta account?{" "}
               <FormSubtitleLink to="/">Sign in</FormSubtitleLink>
             </FormSubtitle>
-            </form>
+            
           </HeaderTextGroup>
           <ImageWrapper>
             <StyledImage fluid={data.file.childImageSharp.fluid} />
