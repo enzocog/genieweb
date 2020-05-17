@@ -41,6 +41,7 @@ const Header = () => {
             <form name="contact" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
             <HeaderForm onSubmit={handleSubmit}>
               <HeaderInput name="email" placeholder="Your email" type="text"/>
+                <input type="hidden" name="form-name" value="contact" />
               <HeaderButton>Early access</HeaderButton>
             </HeaderForm>
             </form>
