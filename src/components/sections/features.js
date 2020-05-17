@@ -23,20 +23,20 @@ const Features = () => (
           </FeatureText>
         </FeatureItem>
         <FeatureItem>
-          <FeatureTitle>Automation</FeatureTitle>
+          <FeatureTitle>Recommendations</FeatureTitle>
           <FeatureText>
-            Create smart automated workflows and triggers for your money.
+            Instantly recieve actionable recommendations you can do.
           </FeatureText>
         </FeatureItem>
         <FeatureItem>
           <FeatureTitle>Aggregation</FeatureTitle>
           <FeatureText>
-            Easily link up to 5 banks to your finance account.
+            Easily link up to 5+ banks/credit-cards to your finance account.
           </FeatureText>
         </FeatureItem>
         <FeatureItem>
-          <FeatureTitle>Payments</FeatureTitle>
-          <FeatureText>Send money to friends and family with ease.</FeatureText>
+          <FeatureTitle>Goals</FeatureTitle>
+          <FeatureText>Insert your custom goals and recieve advice on how to reach them</FeatureText>
         </FeatureItem>
         <FeatureItem>
           <FeatureTitle>Rewards</FeatureTitle>
