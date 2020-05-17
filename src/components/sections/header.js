@@ -37,6 +37,9 @@ const Header = () => {
               We're rethinking the way personal finances work. Sign up to
               get early access.
             </h2>
+            <form name="contact" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
+  <input type="hidden" name="bot-field" />
+  <input type="hidden" name="form-name" value="contact" />
             <HeaderForm onSubmit={handleSubmit}>
               <HeaderInput placeholder="Your email" />
               <HeaderButton>Early access</HeaderButton>
@@ -45,6 +48,7 @@ const Header = () => {
               Already have a beta account?{" "}
               <FormSubtitleLink to="/">Sign in</FormSubtitleLink>
             </FormSubtitle>
+            </form>
           </HeaderTextGroup>
           <ImageWrapper>
             <StyledImage fluid={data.file.childImageSharp.fluid} />
