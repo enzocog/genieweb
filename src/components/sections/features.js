@@ -7,12 +7,12 @@ const Features = () => (
   <Section id="features">
     <StyledContainer>
       <Subtitle>Features</Subtitle>
-      <SectionTitle>Smart money management</SectionTitle>
+      <SectionTitle>Smart Money Management</SectionTitle>
       <FeaturesGrid>
         <FeatureItem>
           <FeatureTitle>Notifications</FeatureTitle>
           <FeatureText>
-            Receive budget and spending alerts based on your favorite triggers.
+            Recieve budget and spending alerts based on your favorite triggers.
           </FeatureText>
         </FeatureItem>
         <FeatureItem>
@@ -36,7 +36,7 @@ const Features = () => (
         </FeatureItem>
         <FeatureItem>
           <FeatureTitle>Goals</FeatureTitle>
-          <FeatureText>Insert your custom goals and recieve advice on how to reach them</FeatureText>
+          <FeatureText>Insert your custom goals and recieve advice on how to reach them.</FeatureText>
         </FeatureItem>
         <FeatureItem>
           <FeatureTitle>Rewards</FeatureTitle>
