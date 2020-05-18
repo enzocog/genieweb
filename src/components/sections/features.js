@@ -25,7 +25,7 @@ const Features = () => (
         <FeatureItem>
           <FeatureTitle>Recommendations</FeatureTitle>
           <FeatureText>
-            Instantly recieve actionable recommendations you can do.
+            Instantly recieve actionable recommendations you can perform right away.
           </FeatureText>
         </FeatureItem>
         <FeatureItem>
