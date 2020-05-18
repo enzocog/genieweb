@@ -23,6 +23,8 @@ const Header = () => {
     event.preventDefault()
   }
 
+
+  
   return (
     <HeaderWrapper id="top">
       <Container>
@@ -38,16 +40,14 @@ const Header = () => {
               We're rethinking the way personal finances work. Sign up to
               get early access.
             </h2>
-            <HeaderForm name="contact" method="post" data-netlify="true" data-netlify-honeypot="bot-field" onSubmit={handleSubmit}>
-            <input type="hidden" name="form-name" value="contact" />
-              <HeaderInput name="email" placeholder="Your email" type="text"/>
-              <HeaderButton>Early access</HeaderButton>
+            <HeaderForm name="contact" method="post" data-netlify="true" data-netlify-honeypot="bot-field" >
+              <HeaderInput name="email" placeholder="Your email" type="text" />
+              <HeaderButton type="submit">Early access</HeaderButton>
             </HeaderForm>
             <FormSubtitle>
               Already have a beta account?{" "}
               <FormSubtitleLink to="/">Sign in</FormSubtitleLink>
             </FormSubtitle>
-            
           </HeaderTextGroup>
           <ImageWrapper>
             <StyledImage fluid={data.file.childImageSharp.fluid} />
