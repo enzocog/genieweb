@@ -2,6 +2,7 @@ import React, { Component } from "react"
 import AnchorLink from "react-anchor-link-smooth-scroll"
 import Scrollspy from "react-scrollspy"
 import { Menu, X } from "react-feather"
+import Logo from '../../../images/product/genielogo.svg'
 
 import { Container } from "../../global"
 import {
@@ -77,7 +78,9 @@ export default class Navigation extends Component {
           <Brand>
             <Scrollspy offset={-64} item={["top"]} currentClassName="active">
               <AnchorLink href="#top" onClick={this.closeMobileMenu}>
-                Credit Genie
+           
+                <img src={Logo} alt="Credit Genie" />
+
               </AnchorLink>
             </Scrollspy>
           </Brand>
