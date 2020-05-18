@@ -38,13 +38,11 @@ const Header = () => {
               We're rethinking the way personal finances work. Sign up to
               get early access.
             </h2>
-            <form name="contact" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
-            <HeaderForm onSubmit={handleSubmit}>
+            <HeaderForm name="contact" method="post" data-netlify="true" data-netlify-honeypot="bot-field" onSubmit={handleSubmit}>
+            <input type="hidden" name="form-name" value="contact" />
               <HeaderInput name="email" placeholder="Your email" type="text"/>
-                <input type="hidden" name="form-name" value="contact" />
               <HeaderButton>Early access</HeaderButton>
             </HeaderForm>
-            </form>
             <FormSubtitle>
               Already have a beta account?{" "}
               <FormSubtitleLink to="/">Sign in</FormSubtitleLink>
