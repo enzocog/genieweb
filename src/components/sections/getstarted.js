@@ -4,13 +4,15 @@ import styled from "styled-components"
 import { Container, Section } from "../global"
 
 const GetStarted = () => (
+
   <StyledSection>
     <GetStartedContainer>
       <GetStartedTitle>Be the first to get the beta</GetStartedTitle>
-      <TryItButton href="#top">Get early access</TryItButton>
+      <TryItButton><a href="#">Get early access</a></TryItButton>
       <Subtitle>No credit card required.</Subtitle>
     </GetStartedContainer>
   </StyledSection>
+
 )
 
 export default GetStarted
@@ -59,6 +61,10 @@ const TryItButton = styled.button`
   }
   @media (max-width: ${props => props.theme.screen.sm}) {
     margin-left: 0;
+  }
+  a{
+    text-decoration: none;
+    color:white;
   }
 `
 
