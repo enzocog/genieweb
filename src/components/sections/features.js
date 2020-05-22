@@ -18,8 +18,7 @@ const Features = () => (
         <FeatureItem>
           <FeatureTitle>Security</FeatureTitle>
           <FeatureText>
-            Your data is always safe with us as we use the latest security
-            protocols.
+            Your data is always safe with us. We use end-to-end encryption and data anonmyization.
           </FeatureText>
         </FeatureItem>
         <FeatureItem>
