@@ -74,7 +74,7 @@ const FeaturesGrid = styled.div`
   grid-template-columns: 1fr 1fr;
   margin: 0px auto;
   grid-column-gap: 40px;
-  grid-row-gap: 35px;
+  grid-row-gap: 35px; 
   @media (max-width: ${props => props.theme.screen.sm}) {
     grid-template-columns: 1fr;
     padding: 0 64px;

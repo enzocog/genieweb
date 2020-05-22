@@ -99,6 +99,11 @@ export const ActionsContainer = styled.div`
     padding: 10px 16px;
     text-transform: uppercase;
     font-size: 12px;
+   
+  }
+  a {
+    text-decoration: none;
+    color: white;
   }
 `
 
