@@ -2,6 +2,7 @@ import React from "react"
 import styled from "styled-components"
 
 import { Container } from "../global"
+import Logo1 from '../../images/product/genielogo.svg'
 
 const Footer = () => (
   <FooterWrapper id="footer">
@@ -9,7 +10,7 @@ const Footer = () => (
       <FooterColumn>
         <span>Features</span>
         <ul>
-          <li>Automation</li>
+          <li>Recommendations</li>
           <li>Rewards</li>
         </ul>
       </FooterColumn>
@@ -30,13 +31,13 @@ const Footer = () => (
       <FooterColumn>
         <span>Social</span>
         <ul>
-          <li>LinkedIn</li>
-          <li>Instagram</li>
+          <li><a href="https://www.linkedin.com/company/53177557">LinkedIn</a></li>
+          <li><a href='https://www.instagram.com/creditgenieapp'>Instagram</a></li>
         </ul>
       </FooterColumn>
     </FooterColumnContainer>
     <BrandContainer>
-      <Logo>Credit Genie</Logo>
+      <Logo><img src={Logo1} alt="Credit Genie" /></Logo>
     </BrandContainer>
   </FooterWrapper>
 )
@@ -97,6 +98,10 @@ const FooterColumn = styled.div`
       margin-bottom: 12px;
       font-family: ${props => props.theme.font.normal};
       font-size: 15px;
+    }
+    a {
+      color:black;
+      text-decoration: none;
     }
   }
 `
