@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `Credit Genie`,
-    description: `A simple one page marketing starter for saas companies.`,
+    title: `Genie`,
+    description: `Optimizing your personal finances. Powered by AI.`,
     author: `Enzo Coglitore`,
   },
   plugins: [
