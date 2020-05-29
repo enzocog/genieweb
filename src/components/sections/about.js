@@ -3,7 +3,7 @@ import styled from "styled-components"
 
 import { Section, Container } from "../global"
 import Enzo from "../../images/product/enzo.jpg"
-import Vishesh from "../../images/product/vishesh.jpg"
+import Vishesh from "../../images/product/vishesh.JPG"
 
 const About = () => (
   <Section id="about">
