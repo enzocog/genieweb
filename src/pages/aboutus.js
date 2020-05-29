@@ -8,18 +8,16 @@ import Header from "../components/sections/header"
 import Features from "../components/sections/features"
 import Footer from "../components/sections/footer"
 import GetStarted from "../components/sections/getstarted"
-import Product from "../components/sections/about"
+import About from "../components/sections/about"
 
-const IndexPage = () => (
+const AboutUsPage = () => (
   <Layout>
-    <SEO title="Optimized Personal Finance. Powered by AI." />
+    <SEO title="About Us" />
     <Navigation />
     <Header />
-    <Features />
-    <GetStarted />
-    <Product />
+    <About />
     <Footer />
   </Layout>
 )
 
-export default IndexPage
+export default AboutUsPage

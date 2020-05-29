@@ -3,6 +3,7 @@ import AnchorLink from "react-anchor-link-smooth-scroll"
 import Scrollspy from "react-scrollspy"
 import { Menu, X } from "react-feather"
 import Logo from '../../../images/product/genielogo.svg'
+import AboutUs from "../../../pages/aboutus"
 
 import { Container } from "../../global"
 import {
@@ -16,7 +17,7 @@ import {
   ActionsContainer,
 } from "./style"
 
-const NAV_ITEMS = ["Features", "Product", "Pricing", ""]
+const NAV_ITEMS = ["Features", "Product", "Pricing", "About", ""]
 
 export default class Navigation extends Component {
   state = {
