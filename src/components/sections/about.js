@@ -12,7 +12,7 @@ const About = () => (
       <SectionTitle>About Us</SectionTitle>
       <AboutGrid>
         <FeatureItem>
-          <a href="href=https://www.linkedin.com/in/enzocoglitore/"><FeatureImage src={Enzo}/></a>
+          <a href="https://www.linkedin.com/in/enzocoglitore/"><FeatureImage src={Enzo}/></a>
           <FeatureTitle>Enzo Coglitore</FeatureTitle>
           <FeatureText>
             Co-Founder
