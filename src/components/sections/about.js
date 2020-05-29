@@ -84,4 +84,6 @@ const FeatureImage = styled.img`
 max-width: 400px;
 max-height: 300px;
 border: solid 5px ${props => props.theme.color.accent};
+align-items: center;
+text-align: center;
 `
