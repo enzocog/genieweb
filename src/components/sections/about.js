@@ -12,14 +12,14 @@ const About = () => (
       <SectionTitle>About Us</SectionTitle>
       <AboutGrid>
         <FeatureItem>
-          <FeatureImage src={Enzo}/>
+          <a href="href=https://www.linkedin.com/in/enzocoglitore/"><FeatureImage src={Enzo}/></a>
           <FeatureTitle>Enzo Coglitore</FeatureTitle>
           <FeatureText>
             Co-Founder
           </FeatureText>
         </FeatureItem>
         <FeatureItem>
-        <FeatureImage src={Vishesh} />
+        <a href="https://www.linkedin.com/in/visheshamin/"><FeatureImage src={Vishesh}/></a>
           <FeatureTitle>Vishesh Amin</FeatureTitle>
           <FeatureText>
            Co-Founder
