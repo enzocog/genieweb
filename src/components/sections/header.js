@@ -30,7 +30,6 @@ const Header = () => {
       <Container>
         <Flex>
           <HeaderTextGroup>
-            <Subtitle>Genie</Subtitle>
             <h1>
               Digital Finance
               <br />
