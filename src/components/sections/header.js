@@ -29,6 +29,7 @@ const Header = () => {
     <HeaderWrapper id="top">
       <Container>
         <Flex>
+          
           <HeaderTextGroup>
             <h1>
               Digital Finance

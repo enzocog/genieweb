@@ -12,13 +12,13 @@ const Features = () => (
         <FeatureItem>
           <FeatureTitle>Notifications</FeatureTitle>
           <FeatureText>
-            Recieve budget and spending alerts based on your favorite triggers.
+            Recieve budget and spending alerts based on your spending habits.
           </FeatureText>
         </FeatureItem>
         <FeatureItem>
           <FeatureTitle>Security</FeatureTitle>
           <FeatureText>
-            Your data is always safe with us. We use end-to-end encryption and data anonymization
+            Your data is always safe with us. We use end-to-end encryption and data anonymization.
           </FeatureText>
         </FeatureItem>
         <FeatureItem>
@@ -38,9 +38,9 @@ const Features = () => (
           <FeatureText>Insert your custom goals and recieve advice on how to reach them.</FeatureText>
         </FeatureItem>
         <FeatureItem>
-          <FeatureTitle>Rewards</FeatureTitle>
+          <FeatureTitle>Savings</FeatureTitle>
           <FeatureText>
-            High interest and rewards for hitting your goals.
+            Keep your money in fast-growing, FDIC insured, high interest savings accounts!
           </FeatureText>
         </FeatureItem>
       </FeaturesGrid>
