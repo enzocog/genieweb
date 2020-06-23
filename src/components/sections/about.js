@@ -10,22 +10,15 @@ const About = () => (
     <StyledContainer>
       <Subtitle>The Team</Subtitle>
       <SectionTitle>About Us</SectionTitle>
-      <AboutGrid>
+      
         <FeatureItem>
           <a href="https://www.linkedin.com/in/enzocoglitore/"><FeatureImage src={Enzo}/></a>
           <FeatureTitle>Enzo Coglitore</FeatureTitle>
           <FeatureText>
-            Co-Founder
+            Founder and CEO
           </FeatureText>
         </FeatureItem>
-        <FeatureItem>
-        <a href="https://www.linkedin.com/in/visheshamin/"><FeatureImage src={Vishesh}/></a>
-          <FeatureTitle>Vishesh Amin</FeatureTitle>
-          <FeatureText>
-           Co-Founder
-          </FeatureText>
-        </FeatureItem>
-      </AboutGrid>
+      
     </StyledContainer>
   </Section>
 )
