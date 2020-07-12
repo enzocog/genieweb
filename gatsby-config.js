@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Genie`,
-    description: `Optimizing your personal finances. Powered by AI.`,
+    description: `Digital Finance Made Simple.`,
     author: `Enzo Coglitore`,
   },
   plugins: [

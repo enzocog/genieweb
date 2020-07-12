@@ -175,7 +175,7 @@ const HeaderButton = styled.button`
   text-transform: uppercase;
   cursor: pointer;
   white-space: nowrap;
-  background: #8361FF;
+  background: #8F7CED;
   border-radius: 4px;
   padding: 0px 40px;
   border-width: 0px;

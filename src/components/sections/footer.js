@@ -37,7 +37,7 @@ const Footer = () => (
       </FooterColumn>
     </FooterColumnContainer>
     <BrandContainer>
-      <Logo><img src={Logo1} alt="Credit Genie" /></Logo>
+      <Logo><img src={Logo1} width="125px" alt="Credit Genie" /></Logo>
     </BrandContainer>
   </FooterWrapper>
 )
