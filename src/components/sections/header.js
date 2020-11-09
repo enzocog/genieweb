@@ -11,7 +11,7 @@ const Header = () => {
     query {
       file(sourceInstanceName: { eq: "product" }, name: { eq: "green-skew" }) {
         childImageSharp {
-          fluid(maxWidth: 1000) {
+          fluid(maxWidth: 500) {
             ...GatsbyImageSharpFluid_tracedSVG
           }
         }
@@ -31,24 +31,27 @@ const Header = () => {
         <Flex>
           
           <HeaderTextGroup>
+          <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
+          
             <h1>
-              Digital Finance
+              Say Goodbye
               <br />
-              Made Simple
+              To Student Loans
             </h1>
             <h2>
-              We're rethinking the way personal finances work. Sign up to
-              get early access.
+            No hassle, automatic, early payments that save. Sign up to get early access.
             </h2>
             <HeaderForm name="contact" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
             <input type="hidden" name="form-name" value="contact" />
               <HeaderInput name="email" placeholder="Your email" type="text"/>
               <HeaderButton>Early access</HeaderButton>
             </HeaderForm>
-            <FormSubtitle>
-              Already have a beta account?{" "}
-              <FormSubtitleLink to="/">Sign in</FormSubtitleLink>
-            </FormSubtitle>
+
           </HeaderTextGroup>
           <ImageWrapper>
             <StyledImage fluid={data.file.childImageSharp.fluid} />
@@ -201,7 +204,7 @@ const ImageWrapper = styled.div`
 `
 
 const StyledImage = styled(Img)`
-  width: 500px;
+  width: 400px;
   @media (max-width: ${props => props.theme.screen.md}) {
     width: 400px;
   }

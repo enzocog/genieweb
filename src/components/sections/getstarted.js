@@ -9,7 +9,7 @@ const GetStarted = () => (
     <GetStartedContainer>
       <GetStartedTitle>Be the first to get the beta</GetStartedTitle>
       <TryItButton><a href="#">Get early access</a></TryItButton>
-      <Subtitle>No credit card required.</Subtitle>
+      <Subtitle>Join a group of 500+ waiting to use Genie.</Subtitle>
     </GetStartedContainer>
   </StyledSection>
 

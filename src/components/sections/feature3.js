@@ -1,32 +1,36 @@
 import React from "react"
 import styled from "styled-components"
-import features from "../../images/product/features.png"
+import feature3 from "../../images/product/feature3.png"
 
 import { Section, Container } from "../global"
 
-const Features = () => (
+const Feature3 = () => (
 
   <Section id="features">
-    <StyledContainer>
+    <StyledSection>
     <Flex>
      <FeatureTextGroup>
      <br></br>
      <br></br>
      <br></br>
      <br></br>
-        <h1>Tackle Student Loans Like A Pro</h1>
-        <h2>Genie's roundup engine intelligently puts extra change from purchases towards student debt, shrinking loans gradually.</h2>
+        <h1>Managing Finances? Easy!</h1>
+        <h2>We sort your accounts better than any other standardized management apps you own.</h2>
      </FeatureTextGroup>
-            <FeatureImage src={features}/>
+            <FeatureImage src={feature3}/>
             <br />
      </Flex>
-    </StyledContainer>
+    </StyledSection>
   </Section>
 )
 
-export default Features
+export default Feature3
 
 const StyledContainer = styled(Container)``
+
+const StyledSection = styled(Section)`
+  clip-path: polygon(0% 10%, 100% 1%, 100% 100%, 0% 100%);
+`
 
 const SectionTitle = styled.h3`
   color: ${props => props.theme.color.primary};

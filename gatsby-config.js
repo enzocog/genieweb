@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Genie`,
-    description: `Digital Finance Made Simple.`,
+    description: `Next generation platform for inputting, visualizing, and paying back your student loans -- in record time.`,
     author: `Enzo Coglitore`,
   },
   plugins: [
